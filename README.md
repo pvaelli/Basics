@@ -17,7 +17,5 @@ This is to show how markdown works.
 
 ## How do we add code
 '''
-
 variable1 <- lm(y~x)
-
 '''
