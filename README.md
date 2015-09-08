@@ -19,3 +19,6 @@ This is to show how markdown works.
 '''
 variable1 <- lm(y~x)
 '''
+
+THIS IS THE END
+===============
