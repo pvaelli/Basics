@@ -21,14 +21,14 @@ When modifying files in R studio, can update between Rstudio/local directories a
 >> git commit -m "enter description of the change here"
 
 # log for reverse chronological order
->> git lg
+>> git log
 
 # push this repository/changes from my computer onto GitHub
 >> git push origin master
 
 # Can also make changes on the GitHub website with commit descriptions included. However, our computer doesn't know these changes have occurred yet, so we need to update.
 
->> git lg
+>> git log
 # should say nothing, doesn't know anything has happened
 
 >> git fetch origin
