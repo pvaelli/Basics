@@ -1,5 +1,9 @@
 ##These are notes for connecting Git and the terminal, as well as maintaining version control through GitHub repositories.
 
+Git and GitHub are powerful tools for *version control* and reproducible research. I find it particularly useful for keeping track of workflows done at the command line (like the one shown here).
+
+Create a GitHub account if you don't have one, and start a new repository. (These instructions are also useful for reminding yourself how to use git at the command line; I come back to this page often!!)
+
 Go to GitHub, copy URL for your repository. Paste into terminal:
 ```
 git clone URL
