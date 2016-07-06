@@ -7,7 +7,8 @@ git clone URL
 
 Enter username and password on for git account into terminal (unless you've set up SSH keys).
 
-When modifying files on your local machine, you can update between local directories and the GitHub repository using:
+
+When modifying files on your local machine, you can update between local directories and the GitHub repository using the following:
 
 Is there a change?
 ```
@@ -23,53 +24,43 @@ Add a new commit or modified file
 git add README.md
 ```
 
-# git with a particular message with short description of changes we made
-# want to add descriptions for collaborators to describe changes that are made. 
->> git commit -m "enter description of the change here"
+Git with s short description of changes you made. It is good practice to add descriptions for collaborators to describe changes that are made. 
+```
+git commit -m "enter description of the change here"
+```
 
-# log for reverse chronological order
->> git log
+Log for reverse chronological order
+```
+git log
+```
 
-# push this repository/changes from my computer onto GitHub
->> git push origin master
+Push this repository/changes from my computer onto GitHub
+```
+git push origin master
+```
 
-# Can also make changes on the GitHub website with commit descriptions included. However, our computer doesn't know these changes have occurred yet, so we need to update.
+Can also make changes on the GitHub website with commit descriptions included. However, our computer doesn't know these changes have occurred yet, so we need to update.
+```
+git log
+```
+This should say nothing; doesn't know anything has happened yet.
 
->> git log
-# should say nothing, doesn't know anything has happened
 
->> git fetch origin
-# tells git to communicate with the remote repository and downloads all of the commits that have happened since then.
-#this will tell you what changes have occurred (by collaborators, etc.) before you modify your own local files.
+This command tells git to communicate with the remote repository and downloads all of the commits that have happened since then.
+It will tell you what changes have occurred (by collaborators, etc.) before you modify your own local files.
+```
+git fetch origin
+```
 
->> git merge origin/master
-# should download commits from GitHub onto local machine.
-
+These commands will pull the commits from GitHub onto your local machine
+```
+git merge origin/master
+```
 or
+```
+git pull origin master
+```
+The previous command does the `git fetch origin` and `git merge origin/master` combined, but it doesn't give you a chance to review the changes before modifying local files.
 
->> git pull origin master
-# this command does the previous two combined, but it doesn't give you a chance to review the changes before modifying local files.
 
-
-Going to turn in hwk assignments using R markdown (.Rmd files vs .md markdown files)
-
-SO WHAT DO WE DO WHEN WE WORK/EDIT FILES ON OUR COMP?
-
-Do what you do, then save file. 
-
->> git status
-#tells us which file changed
-
->> git add "path to file"
-# for a single file, or we can update several files.
-
->> git add "other files"
-
->> git status
-# tells us what we're about to do
-
->> git commit -m "Changed these several files, here is the description"
-
-# finally, we push our changes to GitHub (vs PULL above, when we update our local files)
->> git push origin master
-
+## The End.
