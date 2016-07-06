@@ -1,9 +1,9 @@
-Notes for connecting git and terminal.
+#These are notes for connecting Git and the terminal.
 
 Go to GitHub, copy URL for directory. 
 
 Paste >> git clone URL
-Enter username and password on for git account into terminal.
+Enter username and password on for git account into terminal (unless you've set up SSH keys).
 
 When modifying files in R studio, can update between Rstudio/local directories and the git repository by
 
