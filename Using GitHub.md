@@ -1,4 +1,4 @@
-##These are notes for connecting Git and the terminal.
+##These are notes for connecting Git and the terminal, as well as maintaining version control through GitHub repositories.
 
 Go to GitHub, copy URL for your repository. Paste into terminal:
 ```
